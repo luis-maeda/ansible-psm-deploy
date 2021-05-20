@@ -1,0 +1,5 @@
+---
+- src: git@github.com:luis-maeda/psm.git
+  name: ansible-role-psm
+  scm: git
+  version: master

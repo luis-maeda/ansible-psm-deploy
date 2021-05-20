@@ -1,0 +1,23 @@
+---
+- name: run pre-reqs
+  gather_facts: no
+  hosts: Windows
+
+  tasks:
+    - name: ping
+      win_ping:
+      vars: 
+        ansible_winrm_server_cert_validation: ignore
+       
+    - name: trigger ansible psm role pre-reqs
+      import_role:
+        name: ansible-role-psm
+      # - name: install Pre Reqs
+      #   import_role: ansible-role-pvwa
+      vars:
+        psm_prerequisites: true
+        psm_install: false
+        psm_postinstall: false
+        psm_hardening: false
+        ps_clean: false
+
