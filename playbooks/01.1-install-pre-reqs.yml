@@ -20,4 +20,13 @@
         psm_postinstall: false
         psm_hardening: false
         ps_clean: false
-
+        vault_ip: 10.128.186.237
+        vault_username: administrator
+        vault_password: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
+        accept_eula: yes
+        dr_vault_ip: 
+        psm_zip_file_path: 
+        connect_with_rdp: No
+        psm_installation_drive: 'F:'
+        psm_out_of_domain: true
+        psm_extract: true

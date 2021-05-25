@@ -1,5 +1,5 @@
 ---
-- src: git@github.com:luis-maeda/psm.git
+- src: git@github.com:luis-maeda/ansible-role-psm.git
   name: ansible-role-psm
   scm: git
   version: master
