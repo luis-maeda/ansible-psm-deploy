@@ -23,7 +23,7 @@
         vault_username: administrator
         vault_password: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
         accept_eula: yes
-        psm_zip_file_path: 
+        psm_zip_file_path: 'E:\Upgrade2021\Privileged Session Manager-Rls-v12.0.zip'
         connect_with_rdp: No
         psm_installation_drive: 'F:'
         psm_out_of_domain: true
