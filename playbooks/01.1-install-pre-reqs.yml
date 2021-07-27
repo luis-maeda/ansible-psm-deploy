@@ -15,7 +15,7 @@
         
       vars:
         psm_prerequisites: true
-        psm_install: false
+        psm_install: true
         psm_postinstall: false
         psm_hardening: false
         ps_clean: false
