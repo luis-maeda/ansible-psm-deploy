@@ -14,11 +14,11 @@
         name: ansible-role-psm
         
       vars:
-        psm_prerequisites: false
-        psm_install: false
-        psm_postinstall: false
-        psm_hardening: false
-        psm_registration: false
+        psm_prerequisites: true
+        psm_install: true
+        psm_postinstall: true
+        psm_hardening: true
+        psm_registration: true
         ps_clean: true
         vault_ip: 10.128.186.237
         vault_username: administrator
