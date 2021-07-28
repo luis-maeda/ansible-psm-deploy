@@ -18,6 +18,7 @@
         psm_install: true
         psm_postinstall: true
         psm_hardening: true
+        psm_registration: false
         ps_clean: false
         vault_ip: 10.128.186.237
         vault_username: administrator
