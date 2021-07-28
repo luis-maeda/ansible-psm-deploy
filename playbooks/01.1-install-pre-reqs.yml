@@ -16,7 +16,7 @@
       vars:
         psm_prerequisites: true
         psm_install: true
-        psm_postinstall: false
+        psm_postinstall: true
         psm_hardening: false
         ps_clean: false
         vault_ip: 10.128.186.237
