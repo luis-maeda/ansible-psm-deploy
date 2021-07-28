@@ -14,12 +14,12 @@
         name: ansible-role-psm
         
       vars:
-        psm_prerequisites: true
-        psm_install: true
-        psm_postinstall: true
-        psm_hardening: true
+        psm_prerequisites: false
+        psm_install: false
+        psm_postinstall: false
+        psm_hardening: false
         psm_registration: true
-        ps_clean: true
+        ps_clean: false
         vault_ip: 10.128.186.237
         vault_username: administrator
         vault_password: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
