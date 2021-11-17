@@ -19,7 +19,7 @@
         
     - name: trigger ansible unzip code  
       import_role:
-        name: ansible-install-package
+        name: install-package
        
     - name: trigger ansible psm role pre-reqs
       import_role:
