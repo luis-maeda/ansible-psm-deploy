@@ -3,3 +3,13 @@
   name: ansible-role-psm
   scm: git
   version: master
+  
+- src: git@github.com:ExxonMobil/itpa-role-copy.git
+  name: ansible-copy-file
+  scm: git
+  version: main
+  
+- src: git@github.com:ExxonMobil/ansible-role-unzip.git
+  name: ansible-unzip
+  scm: git
+  version: main
