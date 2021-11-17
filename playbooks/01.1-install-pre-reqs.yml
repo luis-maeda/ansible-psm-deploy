@@ -1,7 +1,7 @@
 ---
 - name: run pre-reqs
   gather_facts: no
-  hosts: Windows
+  hosts: PSM
 
   tasks:
     - name: ping
@@ -20,7 +20,7 @@
         psm_hardening: false
         psm_registration: true
         ps_clean: false
-        vault_ip: 10.128.186.237
+        vault_ip: 10.128.240.86
         vault_username: administrator
         vault_password: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
         accept_eula: yes
