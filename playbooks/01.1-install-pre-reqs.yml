@@ -21,6 +21,10 @@
       import_role:
         name: ansible-role-psm
         
+#     - name: install dotNet 4.8    
+#       import_role:
+#         name: install-binaries
+        
       vars:
         psm_prerequisites: false
         psm_install: false
