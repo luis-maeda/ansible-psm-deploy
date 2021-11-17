@@ -8,6 +8,14 @@
       win_ping:
       vars: 
         ansible_winrm_server_cert_validation: ignore
+
+    - name: trigger ansible Copy File
+      import_role:
+        name: ansible-copy-file
+          
+    - name: trigger ansible unzip code  
+      import_role:
+        name: ansible-unzip
        
     - name: trigger ansible psm role pre-reqs
       import_role:
