@@ -17,17 +17,26 @@
       import_role:
         name: ansible-unzip
         
-    - name: install dotNet 4.8   
+    - name: install dotNet 4.7.2
       import_role:
         name: install-package
        
-    - name: trigger ansible psm role pre-reqs
+    - name: trigger ansible psm role
       import_role:
         name: ansible-role-psm
         
-#     - name: install dotNet 4.8    
-#       import_role:
-#         name: install-binaries
+#     - Deploy PSM Health Check
+
+#     - copy Connectors
+
+#     - copy third party software binaries
+#     - install third party applications
+#     - copy Config Files (Applocker, Hardening)
+#     - Trigger Powershell Applocker Run
+#     - Trigger Powershell Hardening Run
+
+
+#     - Idea: whenever a connector is getting deployed, trigger API Calls (win_uri) to create Users in ITPA, based on the connector testing or needs.
         
       vars:
         psm_prerequisites: false
