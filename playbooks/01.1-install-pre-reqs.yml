@@ -17,9 +17,9 @@
       import_role:
         name: ansible-unzip
         
-    - name: install dotNet 4.7.2
-      import_role:
-        name: install-package
+#     - name: install dotNet 4.7.2
+#       import_role:
+#         name: install-package
        
     - name: trigger ansible psm role
       import_role:
