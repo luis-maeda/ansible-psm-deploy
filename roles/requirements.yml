@@ -14,7 +14,7 @@
   scm: git
   version: main
   
-# - src: git@github.com:ExxonMobil/pam-itpa-dependency-install.git
-#   name: install-package
-#   scm: git
-#   version: main
+- src: git@github.com:ExxonMobil/pam-itpa-dependency-install.git
+  name: install-package
+  scm: git
+  version: main
