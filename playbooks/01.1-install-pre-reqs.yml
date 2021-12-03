@@ -47,7 +47,7 @@
         ps_clean: false
         vault_ip: 10.128.240.86
         vault_username: administrator
-        vault_password: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
+#         vault_password: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
         accept_eula: yes
         psm_zip_file_path: 'E:\Upgrade2021\Privileged Session Manager-Rls-v12.0.zip'
         connect_with_rdp: No
