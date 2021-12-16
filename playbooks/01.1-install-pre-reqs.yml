@@ -15,6 +15,9 @@
     - name: trigger ansible Copy File
       import_role:
         name: ansible-copy-file
+      vars:
+        source_folder: \\hoefcw11\temp\_PAM-Hardening\Ansible\{{component_name}}
+        destination_folder: C:\CyberArk\packages
           
     - name: trigger ansible unzip code  
       import_role:
