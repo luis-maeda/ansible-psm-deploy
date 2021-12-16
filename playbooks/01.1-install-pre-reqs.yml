@@ -6,11 +6,6 @@
   tasks:
     - name: ping
       win_ping:
-      vars: 
-        ansible_winrm_server_cert_validation: ignore
-    - name: debug
-      debug: 
-        msg: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
 
     - name: trigger ansible Copy File
       import_role:
