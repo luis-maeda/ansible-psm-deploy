@@ -1,5 +1,5 @@
 ---
-- name: run pre-reqs
+- name: Full PSM Installation
   gather_facts: no
   hosts: PSM
   
