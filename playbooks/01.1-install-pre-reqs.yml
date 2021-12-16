@@ -24,7 +24,7 @@
       import_role:
         name: install-package
       vars: 
-        package_name: dotNet4.8
+        package_name: MSdotNet4.8
         package_path: C:\CyberArk\packages\ndp48-x86-x64-allos-enu.exe
         package_product_id: dotnet48
        
