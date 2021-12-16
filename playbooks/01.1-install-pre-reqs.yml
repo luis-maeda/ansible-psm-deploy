@@ -20,9 +20,13 @@
       import_role:
         name: ansible-unzip
         
-    - name: install dotNet 4.7.2
+    - name: install dotNet 4.8
       import_role:
         name: install-package
+      vars: 
+        package_name: dotNet4.8
+        package_path: C:\CyberArk\packages\ndp48-x86-x64-allos-enu.exe
+        package_product_id: dotnet48
        
     - name: trigger ansible psm role
       import_role:
