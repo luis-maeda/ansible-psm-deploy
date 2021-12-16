@@ -2,6 +2,10 @@
 - name: run pre-reqs
   gather_facts: no
   hosts: PSM
+  
+  vars: 
+    component_artifact: Privileged Session Manager
+    component_name: psm
 
   tasks:
     - name: ping
@@ -59,3 +63,4 @@
         psm_installation_drive: 'F:'
         psm_out_of_domain: true
         psm_extract: false
+
