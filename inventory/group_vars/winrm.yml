@@ -7,3 +7,6 @@ ansible_winrm_server_cert_validation: ignore
 #ansible_winrm_ca_trust_path: /etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
 vault_username: administrator
 vault_password: "{{ lookup('env', 'VMWARE_PASSWORD') }}"
+
+source_folder: \\hoefcw11\temp\_PAM-Hardening\Ansible\{{component_name}}
+destination_folder: C:\CyberArk\packages
